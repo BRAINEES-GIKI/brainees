@@ -1,0 +1,16 @@
+# Python and notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Large files (add a link or a script instead)
+data/
+*.pt
+*.ckpt
+*.safetensors
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
