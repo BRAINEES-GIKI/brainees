@@ -17,13 +17,9 @@ Copy the important questions from the issue. Write the answer that we agreed on.
 |---|---|---|
 | | | |
 
-## Notes
+## Members' notes
 
-Each person adds notes under their GitHub username.
-
-### @username
-
--
+Each member adds their own notes file in this folder: `<YourName>_SESSION_<N>_notes.md`.
 
 ## Connection to our question
 
