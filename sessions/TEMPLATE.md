@@ -9,13 +9,9 @@
 
 Write the main claim of the paper in one sentence.
 
-## Questions and answers
+## Critique
 
-Copy the important questions from the issue. Write the answer that we agreed on. If we did not agree, write "Open".
-
-| Question | Asked by | Answer |
-|---|---|---|
-| | | |
+Where is the paper weak? Which assumption or argument did we not accept?
 
 ## Members' notes
 

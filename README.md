@@ -14,7 +14,7 @@ This year, we read papers that try to answer this question. We also read papers 
 
 | Item | Content |
 |---|---|
-| [`sessions/`](sessions/) | One folder for each session: notes, questions and answers, and the paper (if it is open access). |
+| [`sessions/`](sessions/) | One folder for each session: the main session file and each member's notes. |
 | [`knowledge-tree.md`](knowledge-tree.md) | One diagram that shows how the papers connect to our question. |
 
 ## How a session works
@@ -41,7 +41,7 @@ This year, we read papers that try to answer this question. We also read papers 
 ## Session folders
 
 - Each session has one folder: `sessions/Session_1/`, `sessions/Session_2/`, and so on.
-- `README.md` is the main file. It has the paper title, the link, the session leads, and the questions and answers. Make it from [`sessions/TEMPLATE.md`](sessions/TEMPLATE.md). GitHub shows this file when you open the folder.
+- `README.md` is the main file. It has the paper title, the link, the session leads, the main claim, and the open questions. Make it from [`sessions/TEMPLATE.md`](sessions/TEMPLATE.md). GitHub shows this file when you open the folder.
 - Each member adds one notes file: `<YourName>_SESSION_<N>_notes.md` (or `.txt`). Example: `Bilal_SESSION_1_notes.md`. One file for each person, so pull requests do not conflict.
 - You can add photos or figures to the same folder.
 
