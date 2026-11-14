@@ -31,6 +31,13 @@ Do not delete a node that another person added. If you disagree with it, add a "
 flowchart TD
   ROOT(["Why do neural networks generalize?"])
 
+  P01["Zhang et al. 2017<br/>nets fit random labels;<br/>capacity and regularization<br/>do not explain generalization"]
+  ROOT --> P01
+  O1(("open: same model, true vs random labels:<br/>what makes it generalize?"))
+  O2(("open: generalization = finding a rule<br/>(compression)? memorization = no rule?"))
+  P01 -.-> O1
+  P01 -.-> O2
+
   %% Add nodes and arrows below this line.
   %% Example (remove %% to use a line):
   %% P01["Author Year<br/>main claim"]
@@ -43,6 +50,8 @@ flowchart TD
   classDef q fill:#fff4d6,stroke:#c99a2e,color:#000;
   classDef o fill:#fff,stroke:#999,stroke-dasharray:4 3,color:#555;
   class ROOT root;
+  class P01 p;
+  class O1,O2 o;
   %% Add colours: class P01 p;  class Q1 q;  class O1 o;
 ```
 
@@ -50,4 +59,4 @@ flowchart TD
 
 | Node | Paper (link) | Session | What it adds | What it leaves open |
 |---|---|---|---|---|
-| | | | | |
+| P01 | [Zhang et al. 2017, Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) | [1](sessions/Session_1/) | Shows that model capacity and regularization do not explain why deep networks generalize: the same model fits true and random labels. | What does explain generalization? Is it about finding a rule (compression)? |
