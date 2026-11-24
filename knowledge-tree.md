@@ -38,6 +38,12 @@ flowchart TD
   P01 -.-> O1
   P01 -.-> O2
 
+  P02["Belkin et al. 2019<br/>double descent: past interpolation,<br/>more parameters lower test error;<br/>smaller L2 norm goes with it"]
+  P01 --> P02
+  O1 --> P02
+  O3(("open: what makes a model generalize<br/>after interpolation? the optimizer<br/>picking the min-norm solution?"))
+  P02 -.-> O3
+
   %% Add nodes and arrows below this line.
   %% Example (remove %% to use a line):
   %% P01["Author Year<br/>main claim"]
@@ -50,8 +56,8 @@ flowchart TD
   classDef q fill:#fff4d6,stroke:#c99a2e,color:#000;
   classDef o fill:#fff,stroke:#999,stroke-dasharray:4 3,color:#555;
   class ROOT root;
-  class P01 p;
-  class O1,O2 o;
+  class P01,P02 p;
+  class O1,O2,O3 o;
   %% Add colours: class P01 p;  class Q1 q;  class O1 o;
 ```
 
@@ -60,3 +66,4 @@ flowchart TD
 | Node | Paper (link) | Session | What it adds | What it leaves open |
 |---|---|---|---|---|
 | P01 | [Zhang et al. 2017, Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530) | [1](sessions/Session_1/) | Shows that model capacity and regularization do not explain why deep networks generalize: the same model fits true and random labels. | What does explain generalization? Is it about finding a rule (compression)? |
+| P02 | [Belkin et al. 2019, Reconciling modern machine-learning practice and the classical bias–variance trade-off](https://arxiv.org/abs/1812.11118) | [2](sessions/Session_2/) | One curve (double descent) joins the classical U-shaped curve and modern large models: past the interpolation point, more parameters give lower test error. The L2 norm of the solution gets smaller at the same time. | Why does the min-norm solution generalize better? Is it the optimizer that picks it? The norm is a correlation, not a full explanation. |
