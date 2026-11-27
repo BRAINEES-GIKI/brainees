@@ -17,7 +17,7 @@ To solidify their claim they took image,sound and text datasets and trained neur
 
 ### Reason for Double Descent:
 Although the authors observed double descent but they did not find out why it happened. All they give in the paper is that it might be because of l2 Norm. The trend they observed was as follows:
-![alt text](image.png)  
+![alt text](code/image.png)  
 
 As observed in previous paper there are multiple solutions and we dont know which one will generalize better so the authors say that the one with a specific L2 norm (that spreads over more data will generalize better)
 
